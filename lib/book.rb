@@ -3,7 +3,7 @@ class Book
   attr_reader :title, :genre
 
 
-@@GENRES = []
+GENRES = []
 
   def initialize(title)
     @title = title
@@ -12,7 +12,7 @@ class Book
   
   def genre=(genre)
     @genre = genre 
-    @@GENRES << @genre
+    GENRES << @genre
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
