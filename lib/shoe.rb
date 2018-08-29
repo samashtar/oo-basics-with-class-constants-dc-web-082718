@@ -9,6 +9,7 @@ class Shoe
     if @brand =@brand.uniq
      BRANDS << @brand
   end
+end 
 
   def brand=(brand)
     @brand = brand 
